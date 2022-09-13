@@ -150,7 +150,6 @@ font-size: 24px;
 } 
 
 .quote .text{ 
-
     font-size: 32px;
     max-width: 800px;
 
@@ -160,4 +159,37 @@ font-size: 24px;
     font-size: 24px;
     justify-content: right;
     display: flex;
+}
+
+.bottom-page{ 
+    display: flex;
+    background-image: url(img/icigo-banner.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:400px;
+    max-width: 100%;
+    justify-content: right;
+    align-items: center;
+    padding-right: 250px;
+
+}
+.pop-up{
+    background-color: black;
+    color:white;
+    padding: 20px;
+    display: flex;
+    gap:100px;
+    border-radius: 25px;
+}
+
+.pop-up .title{ 
+
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.pop-up .left{ 
+    flex-direction: column;
 }
