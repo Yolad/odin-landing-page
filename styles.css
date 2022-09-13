@@ -22,6 +22,12 @@ ul {
 
 }
 
+#thumbnail{ 
+    width:360px;
+    height:423px;
+
+}
+
 .header{ 
 
     justify-content: space-between;
@@ -54,4 +60,35 @@ ul {
 .footer .text{
 
     color:white;
+} 
+
+.top-page{ 
+    justify-content: space-around;
+    display: flex;
+    padding-bottom: 30px;
+    background-image: url(img/bleach-banner1.jpeg); 
+    background-repeat: no-repeat;
+    height:450px;
+    background-size: auto;
+    background-position: center;
+
+} 
+.top-page .left{ 
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.7;
+    margin-top:75px;
+    margin-bottom:75px;
+    color:white;
+    width:300px;
+    padding: 10px;
+} 
+.top-page .left .title{ 
+    font-weight: bold;
+    font-size: 24px;
+
 }
+
